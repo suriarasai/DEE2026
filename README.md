@@ -1,4 +1,23 @@
 # STDEE2026
+## Data Engineering for Enterprise 
+(2 Days)
+
+### What will be covered:  
+The Foundational Data Engineering module provides participants with a comprehensive understanding of modern data engineering principles, architecture, design and practices. Participants will explore the evolving data engineering landscape and the critical role of data in driving organisational decisions and strategy.  Core topics such as data models for both SQL and NoSQL systems, ETL/ELT patterns, data quality management, data warehousing, lakehouse architecture, and dynamic data visualisation are covered through lectures, hands-on demos, and collaborative design / modelling exercises. 
+
+## Pre-requisites
+•	Python and SQL experience, ready to move beyond data analysis and into the world of data engineering
+
+## Key Takeaways  
+At the end of the course, participants will be able to: 
+- Explain the foundational principles and architectural paradigms that underpin modern data systems
+- Design scalable, secure, and efficient data storage and processing architecture aligned with enterprise and analytical workloads
+- Develop and optimise complex data transformation and aggregation workflows using large-scale public datasets
+- Construct, orchestrate, and manage robust ETL and ELT pipelines ensuring reliability, fault tolerance, and data quality
+- Differentiate and evaluate data warehouse and data lakehouse architectures in terms of process, performance, governance, and cost efficiency.
+- Implement distributed data processing pipelines using Apache Spark and its DataFrame API
+- Apply appropriate visualisation and analytical tools to perform exploratory data analysis and derive actionable insights
+- Design and deploy an end-to-end real-time data streaming pipeline using Apache Kafka Streams
 
 ## Agenda
 ### Day 1
