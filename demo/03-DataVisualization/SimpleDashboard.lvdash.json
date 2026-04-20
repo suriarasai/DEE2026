@@ -209,6 +209,182 @@
     {
       "name": "63b58967",
       "displayName": "SimpleDashboard",
+      "layout": [
+        {
+          "widget": {
+            "name": "dae7d68d",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "99c94c0b",
+                  "fields": [
+                    {
+                      "name": "monthly(booking_month)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `booking_month`)"
+                    },
+                    {
+                      "name": "sum(total_bookings)",
+                      "expression": "SUM(`total_bookings`)"
+                    },
+                    {
+                      "name": "sum(avg_fare)",
+                      "expression": "SUM(`avg_fare`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "showDescription": true
+              },
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "monthly(booking_month)",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "fields": [
+                    {
+                      "fieldName": "sum(total_bookings)"
+                    },
+                    {
+                      "fieldName": "sum(avg_fare)"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "6d489ef6",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "54c3ed29",
+                  "fields": [
+                    {
+                      "name": "taxi_type",
+                      "expression": "`taxi_type`"
+                    },
+                    {
+                      "name": "avg_fare",
+                      "expression": "`avg_fare`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "showDescription": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "taxi_type",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "avg_fare",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 0,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "55709648",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "5aff4fa4",
+                  "fields": [
+                    {
+                      "name": "Latitude",
+                      "expression": "`Latitude`"
+                    },
+                    {
+                      "name": "Longitude",
+                      "expression": "`Longitude`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "showDescription": true
+              },
+              "mark": {
+                "size": -0.9
+              },
+              "widgetType": "symbol-map",
+              "encodings": {
+                "coordinates": {
+                  "latitude": {
+                    "fieldName": "Latitude"
+                  },
+                  "longitude": {
+                    "fieldName": "Longitude"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 5,
+            "y": 0,
+            "width": 6,
+            "height": 15
+          }
+        }
+      ],
       "pageType": "PAGE_TYPE_CANVAS",
       "layoutVersion": "GRID_V1"
     },
