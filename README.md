@@ -36,6 +36,7 @@ At the end of the course, participants will be able to:
 - Data Storage Options: RDBMS / NoSQL Databases	
 ### 12.30 pm - 1.30 pm	Lunch Break	60 mins
 ### 1.30 pm - 3.00 pm	Module 3: Data Modelling 90 mins
+- Cloud usage in Data Engineering
 - Data Storage Design (Transactional Systems)
 - Transactional vs Analytical Systems
 - Warehouse Design and Principals
@@ -51,12 +52,11 @@ At the end of the course, participants will be able to:
 ### Day 2
 
 #### 9.00 am - 10.30 am	Module 5: The Modern Cloud and Data Platforms	90 mins
-- Cloud Technologies and Modern Data Platform
+- Modern Data Platforms
 - Understanding Lakehouses and Medallion Architecture
 - Databricks Free Edition Overview
-- Catalogue, Schema, Table and Files (Mounted Volumes)
 - Live Demo: Databricks Free Edition and Navigating The UI
-- Workshop: Create Data Catalog and Compute Setup	
+- Workshop: Create Data Scehma and Compute Setup	
 #### 10.30 am - 10.45 am	Break	15 mins
 #### 10.45 am - 12.30 pm	Module 6:  Modern Data Pipelines - Part 1	105 mins
 - Data Ingestion tools and techniques
@@ -64,9 +64,10 @@ At the end of the course, participants will be able to:
 - Data Queries, Prompts and AI Assisted Queries
 - Live Demo: Ingesting a sample dataset
 - Live Demo: Query Language and Star Schema
-- Workshop: Data Pipelines - Creating Star Schema and Writing Queries	
+- Workshop: Data Pipelines - Creating Schema and Writing Queries	
 #### 12.30 pm - 1.30 pm	Lunch Break	60 mins
 #### 1.30 pm - 3.00 pm	Module 6: Modern Data Pipelines - Part 2 90 mins
+- Catalogue, Schema, Table and Files (Mounted Volumes)
 - Advanced Data Processing Pipelines
 - The ‘One Big Table’ Design
 - Live Demo: One Table Processing
@@ -75,8 +76,6 @@ At the end of the course, participants will be able to:
 #### 3.15 pm - 5.00 pm	Module 7:  Stream Data Processing and Dashboards
 - Dynamic Dashboards
 - Identifying use cases for real-time data
-- Core concepts: producers, consumers, and topics
-- Stream enabling technologies
 - Live Demo: Processing a real-time data stream
 - Live Demo: Dynamic Dashboards
 - Workshop: Creating a Dynamic Dashboard	105 mins
