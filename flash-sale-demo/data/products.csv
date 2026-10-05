@@ -1,0 +1,151 @@
+product_id,name,category,brand,list_price
+1,Atlas Router E59,Electronics,Atlas,849.31
+2,Pico T-Shirt W39,Fashion,Pico,76.03
+3,Sora Cookware Set M82,Home & Living,Sora,63.07
+4,Vanta Serum Z43,Beauty,Vanta,43.43
+5,Zephyr Bike Helmet S36,Sports,Zephyr,323.11
+6,Maple RC Car W91,Toys,Maple,130.52
+7,Zephyr Jasmine Rice B69,Groceries,Zephyr,37.12
+8,Atlas Biography P56,Books,Atlas,34.82
+9,Pico Keyboard S38,Electronics,Pico,1201.42
+10,Sora T-Shirt P95,Fashion,Sora,217.18
+11,Maple Lamp N71,Home & Living,Maple,258.28
+12,Nimbus Sunscreen X14,Beauty,Nimbus,77.41
+13,Atlas Dumbbells B66,Sports,Atlas,231.73
+14,Lumo Plush Bear Q59,Toys,Lumo,25.06
+15,Koru Jasmine Rice G50,Groceries,Koru,30.62
+16,Koru Novel R75,Books,Koru,36.26
+17,Vanta Tablet E34,Electronics,Vanta,295.71
+18,Atlas Dress L46,Fashion,Atlas,17.80
+19,Nimbus Bedsheet Set U85,Home & Living,Nimbus,294.68
+20,Kite Shampoo L97,Beauty,Kite,116.75
+21,Atlas Dumbbells H21,Sports,Atlas,270.09
+22,Kite Plush Bear L35,Toys,Kite,36.12
+23,Nimbus Granola Y95,Groceries,Nimbus,32.86
+24,Lumo Travel Guide V67,Books,Lumo,16.95
+25,Zephyr Earbuds G27,Electronics,Zephyr,1259.72
+26,Nimbus T-Shirt R72,Fashion,Nimbus,30.34
+27,Vanta Cookware Set V52,Home & Living,Vanta,426.76
+28,Zephyr Moisturiser Y55,Beauty,Zephyr,52.58
+29,Pico Bike Helmet Q15,Sports,Pico,320.50
+30,Kite Building Set B62,Toys,Kite,28.42
+31,Terra Coffee Beans G63,Groceries,Terra,43.92
+32,Terra Travel Guide U45,Books,Terra,49.77
+33,Vanta Phone F23,Electronics,Vanta,737.77
+34,Nimbus Backpack V21,Fashion,Nimbus,211.09
+35,Kite Bedsheet Set X11,Home & Living,Kite,406.40
+36,Pico Serum Q61,Beauty,Pico,22.68
+37,Kite Dumbbells E79,Sports,Kite,230.70
+38,Koru Building Set M59,Toys,Koru,59.62
+39,Vanta Dark Chocolate Y55,Groceries,Vanta,13.43
+40,Orion Travel Guide M57,Books,Orion,25.52
+41,Pico Smartwatch B26,Electronics,Pico,1260.91
+42,Nimbus Backpack L64,Fashion,Nimbus,16.36
+43,Sora Bedsheet Set T87,Home & Living,Sora,387.34
+44,Terra Moisturiser H92,Beauty,Terra,27.44
+45,Vanta Dumbbells U86,Sports,Vanta,30.98
+46,Koru Plush Bear B13,Toys,Koru,97.84
+47,Atlas Jasmine Rice H61,Groceries,Atlas,26.75
+48,Atlas Cookbook P82,Books,Atlas,9.89
+49,Koru Tablet E17,Electronics,Koru,754.29
+50,Pico T-Shirt X12,Fashion,Pico,97.08
+51,Sora Cookware Set V14,Home & Living,Sora,214.02
+52,Sora Serum Z18,Beauty,Sora,143.78
+53,Koru Yoga Mat F14,Sports,Koru,28.98
+54,Zephyr Puzzle J49,Toys,Zephyr,113.58
+55,Sora Green Tea V70,Groceries,Sora,40.55
+56,Lumo Tech Handbook F19,Books,Lumo,37.11
+57,Nimbus Monitor X39,Electronics,Nimbus,784.21
+58,Koru Sunglasses C86,Fashion,Koru,47.30
+59,Vanta Cookware Set W88,Home & Living,Vanta,80.66
+60,Orion Sunscreen H13,Beauty,Orion,76.21
+61,Kite Dumbbells P15,Sports,Kite,304.40
+62,Maple Puzzle E75,Toys,Maple,48.87
+63,Sora Green Tea Z45,Groceries,Sora,10.64
+64,Orion Travel Guide K89,Books,Orion,37.54
+65,Sora Keyboard F80,Electronics,Sora,1215.92
+66,Orion Jeans G29,Fashion,Orion,47.55
+67,Koru Vacuum Y13,Home & Living,Koru,461.27
+68,Kite Lipstick U80,Beauty,Kite,15.53
+69,Terra Running Shorts P63,Sports,Terra,134.33
+70,Zephyr RC Car E44,Toys,Zephyr,92.97
+71,Orion Dark Chocolate P98,Groceries,Orion,37.52
+72,Koru Tech Handbook J66,Books,Koru,16.94
+73,Koru Speaker L32,Electronics,Koru,501.23
+74,Nimbus Jeans T69,Fashion,Nimbus,157.45
+75,Sora Bedsheet Set T78,Home & Living,Sora,134.09
+76,Sora Serum Y99,Beauty,Sora,94.05
+77,Vanta Running Shorts R69,Sports,Vanta,165.77
+78,Orion Plush Bear C28,Toys,Orion,163.73
+79,Maple Dark Chocolate V68,Groceries,Maple,43.05
+80,Kite Biography K29,Books,Kite,29.34
+81,Orion Tablet S28,Electronics,Orion,1165.98
+82,Koru Backpack C92,Fashion,Koru,169.96
+83,Terra Lamp Q13,Home & Living,Terra,12.61
+84,Nimbus Lipstick C92,Beauty,Nimbus,81.26
+85,Vanta Yoga Mat L59,Sports,Vanta,257.74
+86,Vanta Board Game S11,Toys,Vanta,144.93
+87,Lumo Jasmine Rice W61,Groceries,Lumo,18.88
+88,Sora Biography M91,Books,Sora,12.27
+89,Sora Monitor D32,Electronics,Sora,1000.21
+90,Terra Jacket T97,Fashion,Terra,89.00
+91,Pico Desk X44,Home & Living,Pico,50.94
+92,Vanta Serum C83,Beauty,Vanta,93.76
+93,Zephyr Racket X43,Sports,Zephyr,199.10
+94,Maple Plush Bear A99,Toys,Maple,29.26
+95,Orion Jasmine Rice S97,Groceries,Orion,19.82
+96,Lumo Travel Guide F15,Books,Lumo,33.46
+97,Koru Phone Z17,Electronics,Koru,638.12
+98,Terra Sneakers K38,Fashion,Terra,61.11
+99,Maple Vacuum M66,Home & Living,Maple,291.44
+100,Sora Perfume E92,Beauty,Sora,137.51
+101,Vanta Yoga Mat X16,Sports,Vanta,121.36
+102,Lumo Building Set B83,Toys,Lumo,167.20
+103,Orion Jasmine Rice R16,Groceries,Orion,37.24
+104,Sora Biography Z56,Books,Sora,10.43
+105,Kite Earbuds M16,Electronics,Kite,234.75
+106,Koru T-Shirt U70,Fashion,Koru,48.51
+107,Koru Air Fryer Y97,Home & Living,Koru,301.12
+108,Orion Serum A96,Beauty,Orion,32.45
+109,Sora Running Shorts V87,Sports,Sora,170.95
+110,Koru Plush Bear X98,Toys,Koru,120.83
+111,Pico Jasmine Rice H86,Groceries,Pico,20.73
+112,Zephyr Tech Handbook Z49,Books,Zephyr,21.97
+113,Kite Smartwatch E59,Electronics,Kite,877.88
+114,Koru Dress Z43,Fashion,Koru,152.13
+115,Kite Lamp K20,Home & Living,Kite,201.29
+116,Lumo Sunscreen Z37,Beauty,Lumo,70.59
+117,Orion Bike Helmet M21,Sports,Orion,316.16
+118,Nimbus Puzzle Q88,Toys,Nimbus,140.22
+119,Sora Green Tea N83,Groceries,Sora,35.40
+120,Koru Biography Q58,Books,Koru,36.21
+121,Atlas Router A77,Electronics,Atlas,449.29
+122,Sora Sunglasses C68,Fashion,Sora,76.74
+123,Koru Lamp M76,Home & Living,Koru,151.59
+124,Atlas Lipstick S75,Beauty,Atlas,19.20
+125,Terra Racket V14,Sports,Terra,185.27
+126,Nimbus RC Car S61,Toys,Nimbus,38.23
+127,Atlas Coffee Beans X55,Groceries,Atlas,21.66
+128,Terra Travel Guide A82,Books,Terra,40.48
+129,Maple Router G33,Electronics,Maple,372.05
+130,Nimbus T-Shirt E66,Fashion,Nimbus,166.01
+131,Lumo Lamp D21,Home & Living,Lumo,335.61
+132,Orion Perfume S57,Beauty,Orion,121.70
+133,Lumo Racket J62,Sports,Lumo,240.33
+134,Maple Board Game T95,Toys,Maple,179.22
+135,Pico Dark Chocolate H31,Groceries,Pico,6.21
+136,Pico Biography P25,Books,Pico,34.50
+137,Nimbus Earbuds X68,Electronics,Nimbus,953.02
+138,Nimbus Backpack J98,Fashion,Nimbus,207.08
+139,Maple Lamp B29,Home & Living,Maple,81.17
+140,Vanta Sunscreen E54,Beauty,Vanta,95.50
+141,Sora Bike Helmet E11,Sports,Sora,123.88
+142,Pico RC Car T30,Toys,Pico,149.67
+143,Maple Green Tea T23,Groceries,Maple,33.17
+144,Kite Novel K70,Books,Kite,58.56
+145,Terra Speaker Q49,Electronics,Terra,532.25
+146,Terra Jacket U41,Fashion,Terra,206.77
+147,Lumo Bedsheet Set Z80,Home & Living,Lumo,442.02
+148,Koru Lipstick F20,Beauty,Koru,45.24
+149,Lumo Water Bottle F73,Sports,Lumo,124.22
+150,Orion RC Car M28,Toys,Orion,115.28

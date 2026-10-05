@@ -1,0 +1,27 @@
+# OPTIONAL. start.cmd does not use this file.
+#
+# To use this file, run:
+#   podman compose up -d      start the three containers
+#   seed.cmd                  load the data
+#   podman compose down -v    remove them
+
+services:
+  postgres:                                    # relational schema
+    image: docker.io/library/postgres:17
+    container_name: flashsale-postgres
+    environment:
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: flashsale
+
+  mongo:                                       # documents
+    image: docker.io/library/mongo:8.0
+    container_name: flashsale-mongo
+
+  neo4j:                                       # graph
+    image: docker.io/library/neo4j:5-community
+    container_name: flashsale-neo4j
+    environment:
+      NEO4J_AUTH: none                         # no password: this is a laptop demo
+    ports:
+      - "7474:7474"                            # Neo4j Browser (the graph pictures)
+      - "7687:7687"                            # the connection the Browser uses
