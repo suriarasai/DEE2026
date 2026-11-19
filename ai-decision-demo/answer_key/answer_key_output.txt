@@ -1,0 +1,107 @@
+
+## 1. Sanity checks (should match the three-database demo)
+
+Total revenue, all statuses: 16,255,674.43 (README says 16,255,674.43)
+11.11 orders: 3000 | lines: 8480 | revenue all statuses: 1,549,535
+Average discount on 11.11: 40.0% | other days: 3.0%
+Typical day revenue (median): 40,070 | 11.11 is 39x
+
+## 2. Did 11.11 make money? (delivered orders only; refunds/cancellations earn nothing)
+
+                revenue      cogs  gross_margin  gateway  fulfilment  contribution  margin_%
+category                                                                                    
+Electronics    568235.0  742428.0     -174193.0  12501.0      2118.0     -188812.0     -33.0
+Groceries       18210.0   21256.0       -3046.0    401.0       540.0       -3986.0     -22.0
+Home & Living  260194.0  251600.0        8594.0   5724.0      1967.0         903.0       0.0
+Books           38850.0   35482.0        3368.0    855.0      1097.0        1417.0       4.0
+Toys            90355.0   78301.0       12053.0   1988.0      1271.0        8795.0      10.0
+Sports         194172.0  162486.0       31686.0   4272.0      1808.0       25607.0      13.0
+Beauty          66085.0   33270.0       32815.0   1454.0      1186.0       30175.0      46.0
+Fashion        104728.0   65472.0       39257.0   2304.0      1283.0       35669.0      34.0
+
+Contribution before campaign costs: -90,233
+Less marketing 85,000 and late vouchers 8,150 => 11.11 result: -183,383
+Kite Smartwatch E59 on 11.11: units 75 | revenue refunded 39,960 | stock written off 47,588
+
+## 3. Break-even discount by category (price after discount, less 2.2% gateway, = unit cost)
+
+category
+Electronics      25.6%
+Groceries        28.3%
+Home & Living    40.7%
+Books            43.3%
+Toys             46.4%
+Sports           49.0%
+Fashion          60.6%
+Beauty           68.7%
+
+Sensitivity: contribution margin % of list price at each discount level
+               10% off  20% off  30% off  40% off  50% off
+category                                                  
+Beauty            57.4     47.7     37.9     28.1     18.3
+Books             32.6     22.8     13.0      3.2     -6.5
+Electronics       15.3      5.5     -4.3    -14.1    -23.9
+Fashion           49.5     39.8     30.0     20.2     10.4
+Groceries         17.9      8.1     -1.6    -11.4    -21.2
+Home & Living     30.0     20.2     10.5      0.7     -9.1
+Sports            38.1     28.3     18.5      8.8     -1.0
+Toys              35.6     25.9     16.1      6.3     -3.5
+
+## 4. Did 11.11 create customers? (the marketing claim)
+
+Sign-ups after 30 Sep 2025: 0 -> no new users at all; the claim cannot be supported by this data
+Flash buyers: 1274
+Avg spend per user, 41 days before: flash buyers 1,082 vs others 508
+Avg spend per user, 90 days after:  flash buyers 2,266 vs others 1,025
+11.11 orders by tier: {'bronze': 1612, 'gold': 385, 'platinum': 104, 'silver': 899} | tier mix of all users: {'bronze': 0.55, 'silver': 0.29, 'gold': 0.13, 'platinum': 0.04}
+
+## 5. What the customers said (reviews.csv)
+
+Rows: 2019 | exact duplicates: 15 | orphan order_ids: 5 | ratings outside 1-5: 4
+Clean reviews: 1995
+       reviews  avg_rating  late_share
+flash                                 
+False     1305        3.73        0.05
+True       690        3.47        0.38
+
+Late-delivery share of 11.11 reviews by category:
+category
+Home & Living    48.0
+Books            45.0
+Toys             36.0
+Electronics      36.0
+Beauty           35.0
+Groceries        34.0
+Fashion          30.0
+Sports           30.0
+
+Kite Smartwatch E59: 57 reviews, 29 mention heat/battery. Orders 11 Nov - 31 Dec: 29 of 53; all other dates: 0 of 4
+Languages: {'en': 1769, 'ms': 83, 'id': 83, 'zh': 60}
+'Only buy on sale' / 'would not pay full price' reviews on 11.11: 90
+
+## 6. Basket check: is Electronics a loss leader that pulls in high-margin items?
+
+Delivered 11.11 orders with Electronics: 691; of those also containing Beauty or Fashion: 45%; same share among orders without Electronics: 56%
+
+## 7. 12.12 options, same customers and basket as 11.11 (E59 batch excluded everywhere)
+
+                                             orders  revenue  contribution
+A Repeat 11.11 as-is (1 day, surge booked)     2683  1340830       -132501
+B Targeted discounts (1 day)                   2606  1227202        165450
+C Same discounts, spread over 3 days           2683  1340830       -127646
+D Targeted + 3 days + platinum early access    2606  1227202        169919
+Volume assumption for B and D: {'Electronics': 0.5, 'Groceries': 0.5, 'Home & Living': 0.8} (others unchanged). Change it and re-run: B/D stay ahead because the units removed were sold below cost.
+
+## 8. Weighted scoring (deck slides 20-23). Scores are the presenter's judgement, shown so the room can argue with them
+
+                      A  B  C  D  weight
+Profit                1  7  2  8       9
+Customer experience   2  4  8  8       8
+Operational risk      3  5  8  8       7
+Competitive position  6  5  6  5       6
+Revenue               9  6  9  6       5
+Loyalty fairness      3  4  3  7       4
+
+Weighted totals: {'A': 139, 'B': 206, 'C': 231, 'D': 280}
+Sensitivity - winner as the Profit weight changes (other weights as above): {1: 'D', 3: 'D', 5: 'D', 7: 'D', 9: 'D', 10: 'D'}
+Sensitivity - same sweep for a 'GMV first' manager (Revenue weight 10): {1: 'C', 3: 'C', 5: 'D', 7: 'D', 9: 'D', 10: 'D'}

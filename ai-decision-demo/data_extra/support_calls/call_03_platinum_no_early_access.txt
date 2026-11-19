@@ -1,0 +1,8 @@
+CALL TRANSCRIPT  |  2025-11-12 09:15  |  Agent: Siti (CS-03)  |  Customer: platinum member (name withheld)
+
+CUSTOMER: I'm a platinum member. By the time I logged in at 8am everything good was sold out.
+          The monitors and the earbuds were gone by midnight.
+AGENT: The sale was open to all members from midnight.
+CUSTOMER: So what is platinum for? Kedai Prime gives their top members early access the day before.
+AGENT: I'll pass that feedback to the loyalty team.
+AGENT: [internal note] Loyalty-tier complaint. Customer mentioned Kedai Prime early access.

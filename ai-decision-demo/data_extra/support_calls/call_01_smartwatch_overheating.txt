@@ -1,0 +1,12 @@
+CALL TRANSCRIPT  |  2025-11-19 10:42  |  Agent: Mei (CS-14)  |  Customer: Max Lim, user 1769
+Orders: 12381, 12523 (both 11.11)  |  Product: Kite Smartwatch E59
+
+AGENT: Thanks for calling, how can I help?
+CUSTOMER: I bought two of the Kite watches on 11.11, one for my wife. Both get very hot on the charger.
+          Last night the back was too hot to touch. I'm scared to leave it charging overnight.
+AGENT: I'm sorry. Is there any swelling or smell?
+CUSTOMER: My wife's one, the back cover is lifting a little.
+AGENT: Please stop using both. I'm logging this as a product safety incident and arranging a courier pick-up.
+       Full refund for both.
+CUSTOMER: Is this a known problem?
+AGENT: [internal note] Third overheating call on E59 this morning. All from the 11.11 stock. Escalated to category manager.

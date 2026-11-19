@@ -1,0 +1,9 @@
+CALL TRANSCRIPT  |  2025-11-25 11:20  |  Agent: Nurul (CS-11, Kuala Lumpur)  |  Customer: Oliver Lim, user 840, MY
+Order: 12136 (11.11, cancelled)
+
+CUSTOMER: Saya batalkan order 11.11 minggu lepas, tapi refund belum masuk lagi.
+          (I cancelled my 11.11 order last week but the refund hasn't come in yet.)
+AGENT: Maaf encik. Refund untuk jualan 11.11 mengambil masa 7 hingga 10 hari bekerja sebab jumlah yang tinggi.
+       (Sorry sir. Refunds for the 11.11 sale take 7 to 10 working days because of the high volume.)
+CUSTOMER: Sepuluh hari? Itu terlalu lama.  (Ten days? That's too long.)
+AGENT: [internal note] Refund backlog complaint. Payment gateway queue still 900+ items.

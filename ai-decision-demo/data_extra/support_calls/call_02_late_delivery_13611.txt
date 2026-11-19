@@ -1,0 +1,9 @@
+CALL TRANSCRIPT  |  2025-11-18 16:05  |  Agent: Arjun (CS-09)  |  Customer: Chloe Zhang, user 303
+Order: 13611 (11.11, 13:20)  |  Items: green tea, coffee beans, desk
+
+CUSTOMER: My order from the 11.11 sale still says "processing". It's been a week.
+AGENT: I can see it. The warehouse had a backlog after the sale, it was dispatched yesterday.
+CUSTOMER: The desk was the reason I ordered. I needed it for my new flat on the weekend.
+AGENT: I understand. I'll add a 5-dollar voucher to your account for the delay.
+CUSTOMER: Five dollars... fine. Honestly, next time I'll just order from ShopNova, they do next-day delivery.
+AGENT: [internal note] Voucher LATE-5 applied. 6th "ShopNova next-day" mention on my calls this week.

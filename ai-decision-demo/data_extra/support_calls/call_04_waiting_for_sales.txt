@@ -1,0 +1,6 @@
+CALL TRANSCRIPT  |  2025-12-02 14:30  |  Agent: Mei (CS-14)  |  Customer: gold member (name withheld)
+
+CUSTOMER: Quick question, when is your next big sale? 12.12?
+AGENT: We haven't announced anything yet.
+CUSTOMER: OK. I have three things in my cart, I'll wait. After 11.11 the normal prices feel expensive.
+AGENT: [internal note] Customer deferring full-price purchases until next sale.
